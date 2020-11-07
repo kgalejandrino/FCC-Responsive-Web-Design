@@ -4,8 +4,8 @@
 2. [Goal of the Project](#goal-of-the-project)
 3. [Setup](#setup)
 4. [Five Responsive Websites](#five-responsive-websites)
-    - [Tribute Page](#build-a-tribute-page)
-    - [Survey Form](#build-a-survey-form)  
+    - [Build a Tribute Page](#build-a-tribute-page)
+    - [Build a Survey Form](#build-a-survey-form)  
 
 ## Purpose of the Project:
 Purpose of the project is to showcase all the skills we learned in the Web Design Course. Project is recommended to be completed with plain CSS & HTML as this is what the lessons have covered so far.
