@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i.ibb.co/19jBx1v/Athletic-Men-Exercise-With-Weights.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* Title */
+#title-div {  
+    width: 50%;
+    margin: 60px auto 0 auto; 
+    text-align: center;
+    padding: 18px;
+}
+
+#title { margin-bottom: 12px;}
+
+/* Survey Form */
+#survey-container {
+    width: 40%;
+    margin: 20px auto 40px auto;
+    background: #2f4f4f62;
+    border-radius: 10px;
+}
+
+#survey-form {
+    /* border: 1px solid blue; */
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+    padding: 20px 0 20px 0;
+}
+
+.form-div {
+    margin: 24px 0 18px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Input, Label & Textarea */
+label { font-size: 20px; }
+
+#name, #email, #number, #dropdown {
+    height: 36px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+input:focus, select:focus, textarea:focus { 
+    border-color:#48494962;
+    outline: none;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-top: 14px;
+    margin-right: 10px;
+}
+
+::placeholder { 
+    padding-left: 8px; 
+    padding-top: 5px;
+}
+
+#suggestions {
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* Button */
+#submit {
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+}
+

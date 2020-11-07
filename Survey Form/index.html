@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="query.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet">
+    <title>Survey Form</title>
+</head>
+<body>
+    <div id="title-div">
+        <h1 id="title">Workout Survey Post Covid</h1>
+        <p id="description" class="title-description">Please take a few minutes to tell us more about your experience.</p>
+        <p class="title-description">Your opinion is highly appreciated and will help us improve our service.</p>
+    </div>
+
+    <div id="survey-container">
+        <form action="" id="survey-form">
+            <div class="form-div">
+                <label for="name" id="name-label">Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required>  
+            </div class="form-div"> 
+            
+            <div class="form-div">
+                <label for="email" id="email-label">Email</label>
+                <input type="email" id="email" placeholder="Enter a valid email address" required>
+            </div>
+    
+            <div class="form-div">
+                <label for="number" id="number-label">Age</label>
+                <input type="number" id="number" min="18" max="99" placeholder="Age" required>
+            </div>
+    
+            <div class="form-div">
+                <label for="days">How many times do you visit the gym per week?</label>
+                <select name="days" id="dropdown">
+                    <option disabled selected>Select how many times</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="everyday">everyday</option>
+                </select>
+            </div>
+    
+            <div class="form-div">
+                <p>How would you rate your overall workout experience?</p>
+                <label for="extremely-satisfied">
+                    <input id="extremely-satisfied" value="extremely-satisfied" type="radio" name="satisfaction">Extremely Satisfied
+                </label>
+    
+                <label for="satisfied">
+                    <input id="satisfied" value="satisfied" type="radio" name="satisfaction">Satisfied
+                </label>
+    
+                <label for="somewhat-satisfied"> 
+                    <input id="somewhat-satisfied" value="somewhat-satisfied" type="radio" name="satisfaction">Somewhat Satisfied
+                </label>
+    
+                <label for="somewhat-disatisfied">
+                    <input id="somewhat-disatisfied" value="somewhat-disatisfied" type="radio" name="satisfaction">Somewhat Disatisfied
+                </label>
+    
+                <label for="disatisfied">
+                    <input id="disatisfied" value="disatisfied" type="radio" name="satisfaction">Disatisfied
+                </label>
+    
+                <label for="extremely-disatisfied">
+                    <input id="extremely-disatisfied" value="extremely-disatisfied" type="radio" name="satisfaction">Extremely Disastisfied
+                </label>
+            </div>
+    
+            <div class="form-div">
+                <p>What would you like to see improved? (Check all that apply)</p>
+    
+                <label for="social-distancing">
+                    <input id="social-distancing" value="social-distancing" type="checkbox" name="precaution">Social distancing by blocking access to every other cardio machine
+                </label>
+        
+                <label for="stay-6-feet">
+                    <input id="stay-6-feet" value="stay-6-feet" type="checkbox" name="precaution">Stay at least 6 feet (2 meters) away from other members
+                </label>
+                
+                <label for="clean-equipment">
+                    <input id="clean-equipment" value="clean-equipment" type="checkbox" name="precaution">Clean equipment before and after using it
+                </label>
+        
+                <label for="mask">
+                    <input id="mask" value="mask" type="checkbox" name="precaution">Mask at all times
+                </label>
+        
+                <label for="sanitizer">
+                    <input id="sanitizer" value="sanitizer" type="checkbox" name="precaution">More sanitizer around the facility
+                </label>
+            </div>
+    
+            <div class="form-div">
+                <label for="suggestions">Any comments or suggestions?</label>
+                <textarea name="suggestions" id="suggestions" cols="50" rows="10" placeholder="Enter your comment here..."></textarea>
+            </div>
+    
+            <div class="form-div">
+                <input type="submit" value="Submit" id="submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

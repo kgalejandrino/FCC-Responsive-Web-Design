@@ -4,6 +4,7 @@
     box-sizing: border-box;
   }
 
+/* Main */
 #main {
     background-color: #fff;
     font-family: 'Times New Roman', Times, serif;
@@ -15,6 +16,7 @@
     margin-right: 10px;
 }
 
+/* Header */
 #title {
     background-color: #000;
     height: 200px;
@@ -36,6 +38,7 @@
 #subject h2 { font-style: italic; }
 #subject h3 { padding-top: 20px;}
 
+/* Image */
 #img-div {
     border: 20px solid black;
     border-top: none;
@@ -69,6 +72,7 @@
     border-radius: 0 0 10px 10px ;
 }
 
+/* Tribute Info */
 #tribute-info h3 {
     text-align: center;
 }
@@ -88,6 +92,7 @@
 #tribute-info td:first-child { color: red; }
 #tribute-info td:last-child { padding-left: 50px; }
 
+/* Links */
 #link {
     text-align: center;
     margin-top: 25px;

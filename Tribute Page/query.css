@@ -1,24 +1,12 @@
-/* Small phones: from 0 to 480 px */
-@media only screen and (max-width: 480px) {
-    #title { height: 180px; }
-    #subject { width: 80%; }
-    #subject h1 { font-size: 28px;}
-    #subject h2 { font-size: 22px;}
-    #subject h3 { font-size: 18px;}
+/* Big tablet to large screens (desktop): from 1200px and up */
+@media only screen and (max-width: 1200px) {
+    #tribute-info table { width: 50%;}
+}
 
-    #img-caption {
-        padding-top: 12px;
-        width: 220px;
-        line-height: 18px;
-        font-size: 16px;
-    }
 
-    #img-caption span { 
-        display: inline-block;
-        margin-top: 16px;
-    }
-    
-    #tribute-info table { width: 80%;}
+/* Small tablet to big tablet: from 768 to 1023 px */
+@media only screen and (max-width: 1023px) {
+    #tribute-info table { width: 60%;}
 }
 
 /* Small phones to small tablet: from 481 to 767 px */
@@ -44,12 +32,26 @@
     #tribute-info table { width: 70%;}
 }
 
-/* Small tablet to big tablet: from 768 to 1023 px */
-@media only screen and (max-width: 1023px) {
-    #tribute-info table { width: 60%;}
-}
+/* Small phones: from 0 to 480 px */
+@media only screen and (max-width: 480px) {
+    #title { height: 180px; }
+    #subject { width: 80%; }
+    #subject h1 { font-size: 28px;}
+    #subject h2 { font-size: 22px;}
+    #subject h3 { font-size: 18px;}
 
-@media only screen and (max-width: 1200px) {
-    #tribute-info table { width: 50%;}
+    #img-caption {
+        padding-top: 12px;
+        width: 220px;
+        line-height: 18px;
+        font-size: 16px;
+    }
+
+    #img-caption span { 
+        display: inline-block;
+        margin-top: 16px;
+    }
+    
+    #tribute-info table { width: 80%;}
 }
 

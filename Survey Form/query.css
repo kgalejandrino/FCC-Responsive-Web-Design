@@ -1,0 +1,34 @@
+/* Big tablet to large screens (desktop): from 1200px and up */
+@media only screen and (max-width: 1200px) {
+    #title-div { width: 60%; }
+
+    #survey-container { width: 50%; }
+}
+
+
+/* Small tablet to Big tablet: from 768 to 1023 px */
+@media only screen and (max-width: 1023px) {
+    #title-div { width: 70%; }
+
+    #survey-container { width: 65%; }
+}
+
+/* Small phones to small tablet: from 481 to 767 px */
+@media only screen and (max-width: 767px) {
+    #title-div { width: 90%; }
+    #survey-container { width: 80%; }
+}
+
+/* Small phones: from 0 to 480 px */
+@media only screen and (max-width: 480px) {
+    #title-div {  
+        width: 100%;
+        font-size: 18px;
+        margin-top: 40px;
+    }
+    
+    #survey-container { width: 100%; }
+}
+
+
+
