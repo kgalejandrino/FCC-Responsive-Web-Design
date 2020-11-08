@@ -17,7 +17,9 @@ The goal of the project is to design them responsively based on the User Stories
 All of the projects are static websites, so if you are interested. Simply, download the files and run index.html in your browser. I will also put the link of each project created through codepen.
 
 ### Five Responsive Websites
-* #### Build a Tribute Page - https://codepen.io/kgalejandrino/pen/ZEOjmGM
+* #### Build a Tribute Page 
+  Link to CodePen: https://codepen.io/kgalejandrino/pen/ZEOjmGM
+
   - User Story #1: My tribute page should have an element with a corresponding id="main", which contains all other elements.
 
   - User Story #2: I should see an element with a corresponding id="title", which contains a string (i.e. text) that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug").
@@ -36,7 +38,8 @@ All of the projects are static websites, so if you are interested. Simply, downl
 
   - User Story #9: The img element s
 
-* #### Build a Survey Form - https://codepen.io/kgalejandrino/pen/vYKzdvq
+* #### Build a Survey Form 
+  Link to Codepen: https://codepen.io/kgalejandrino/pen/vYKzdvq
   - User Story #1: I can see a title with id="title" in H1 sized text.
 
   - User Story #2: I can see a short explanation with id="description" in P sized text.
