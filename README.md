@@ -5,7 +5,9 @@
 3. [Setup](#setup)
 4. [Five Responsive Websites](#five-responsive-websites)
     - [Build a Tribute Page](#build-a-tribute-page)
-    - [Build a Survey Form](#build-a-survey-form)  
+    - [Build a Survey Form](#build-a-survey-form)
+    - [Build a Product Landing Page](#build-a-product-landing-page)
+    - [Build a Technical Documentation Page](#build-a-technical-documentation-page)  
 
 ## Purpose of the Project:
 Purpose of the project is to showcase all the skills we learned in the Web Design Course. Project is recommended to be completed with plain CSS & HTML as this is what the lessons have covered so far.
@@ -72,8 +74,68 @@ All of the projects are static websites, so if you are interested. Simply, downl
 
   - User Story #16: Inside the form element, I am presented with a button with id="submit" to submit all my inputs.
 
-* Build a Product Landing Page
-* Build a Technical Documentation Page
+* #### Build a Product Landing Page
+Link to Codepen: https://codepen.io/kgalejandrino/pen/bGemeOY
+ - User Story #1: My product landing page should have a header element with a corresponding id="header".
+
+ - User Story #2: I can see an image within the header element with a corresponding id="header-img". A company logo would make a good image here.
+
+ - User Story #3: Within the #header element I can see a nav element with a corresponding id="nav-bar".
+
+ - User Story #4: I can see at least three clickable elements inside the nav element, each with the class nav-link.
+
+ - User Story #5: When I click a .nav-link button in the nav element, I am taken to the corresponding section of the landing page.
+
+ - User Story #6: I can watch an embedded product video with id="video".
+
+ - User Story #7: My landing page has a form element with a corresponding id="form".
+
+ - User Story #8: Within the form, there is an input field with id="email" where I can enter an email address.
+
+ - User Story #9: The #email input field should have placeholder text to let the user know what the field is for.
+
+ - User Story #10: The #email input field uses HTML5 validation to confirm that the entered text is an email address.
+
+ - User Story #11: Within the form, there is a submit input with a corresponding id="submit".
+ 
+ - User Story #12: When I click the #submit element, the email is submitted to a static page (use this mock URL: https://www.freecodecamp.com/email-submit).
+
+ - User Story #13: The navbar should always be at the top of the viewport.
+
+ - User Story #14: My product landing page should have at least one media query.
+
+ - User Story #15: My product landing page should utilize CSS flexbox at least once.
+* #### Build a Technical Documentation Page
+Link to Codepen: https://codepen.io/kgalejandrino/pen/yLJmNgM
+ - User Story #1: I can see a main element with a corresponding id="main-doc", which contains the page's main content (technical documentation).
+
+ - User Story #2: Within the #main-doc element, I can see several section elements, each with a class of main-section. There should be a minimum of 5.
+
+ - User Story #3: The first element within each .main-section should be a header element which contains text that describes the topic of that section.
+
+ - User Story #4: Each section element with the class of main-section should also have an id that corresponds with the text of each header contained within it. Any spaces should be replaced with underscores (e.g. The section that contains the header "JavaScript and Java" should have a corresponding id="JavaScript_and_Java").
+
+ - User Story #5: The .main-section elements should contain at least 10 p elements total (not each).
+
+ - User Story #6: The .main-section elements should contain at least 5 code elements total (not each).
+
+ - User Story #7: The .main-section elements should contain at least 5 li items total (not each).
+
+ - User Story #8: I can see a nav element with a corresponding id="navbar".
+
+ - User Story #9: The navbar element should contain one header element which contains text that describes the topic of the technical documentation.
+
+ - User Story #10: Additionally, the navbar should contain link (a) elements with the class of nav-link. There should be one for every element with the class main-section.
+ - User Story #11: The header element in the navbar must come before any link (a) elements in the navbar.
+
+ - User Story #12: Each element with the class of nav-link should contain text that corresponds to the header text within each section (e.g. if you have a "Hello world" section/header, your navbar should have an element which contains the text "Hello world").
+
+ - User Story #13: When I click on a navbar element, the page should navigate to the corresponding section of the main-doc element (e.g. If I click on a nav-link element that contains the text "Hello world", the page navigates to a section element that has that id and contains the corresponding header.
+
+ - User Story #14: On regular sized devices (laptops, desktops), the element with id="navbar" should be shown on the left side of the screen and should always be visible to the user.
+
+ - User Story #15: My Technical Documentation page should use at least one media query.
+
 * Build a Personal Portfolio Webpage
 
 
