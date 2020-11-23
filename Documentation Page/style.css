@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+/* REUSABLE COMPONENTS */
+.main-section {
+    width: 75%;
+    margin: 32px 0 0 50px;
+    text-align: justify;
+}
+
+.section-title { font-size: 24px; }
+
+.section-text { 
+    margin-top: 12px;
+    line-height: 24px;
+}
+
+.section-list {
+    margin-left: 32px;
+    width: 50%;
+}
+
+.section-list li {
+    margin-top: 8px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+.elements { color: blue;}
+
+.example-div { margin-top: 12px; }
+
+.example-div p { margin-top: 16px;}
+
+.example {
+    background-color: rgb(216, 216, 216);
+    padding: 12px;
+    width: 100%;
+}
+
+.wrong { background-color: rgb(255, 221, 221); }
+
+
+/* NAV BAR */
+#navbar {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 300px;
+    border-right: 1px solid  #2f4f4f62;
+    border-width: 4px;
+    position: fixed;
+}
+
+#nav-title {
+    padding: 14px;
+    border-bottom: 1px solid #2f4f4f62;
+    border-width: 2px;
+}
+
+#navbar ul {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 18px;
+    padding-left: 24px;
+    border-bottom: 1px solid #2f4f4f62;
+}
+
+#navbar a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+/* MAIN */
+#main-doc {
+    position: absolute;
+    margin-left: 315px;
+    margin-bottom: 50px;
+}
+
+/* Introduction Section */
+#intro-table {
+    background-color: #2f4f4f62;
+    margin-top: 24px;
+    padding: 8px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#intro-table td:first-child { 
+    font-size: 18px;
+    vertical-align: 8px;
+}
+
+#intro-table td { padding: 12px; }
+
+
+/* Anatomy of HTML Section */
+#anatomy-img {
+    margin-top: 24px;
+    height: 160px;
+}
+
+/* Block vs inline Section */
+#block-inline-ex { 
+    border: 1px solid #2f4f4f62;
+    width: 50%;
+    border-width: 2px;
+    margin-top: 18px;
+}
+
+#block-inline-ex p { padding: 12px; }
+
+/* Reference */
+/* .main-section:last-child { margin-bottom: 50px;} */
+
+#reference-link { color: rgb(41, 41, 194); }
+

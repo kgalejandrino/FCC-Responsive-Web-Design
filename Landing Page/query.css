@@ -1,0 +1,115 @@
+/* Big tablet to large screens (desktop): from 1200px and up */
+@media only screen and (max-width: 1200px) {
+   
+}
+
+
+/* Small tablet to Big tablet: from 768 to 1023 px */
+@media only screen and (max-width: 1023px) {
+        /* FEATURE */
+        #feature {  height: 550px; }
+
+        /* Classes */
+        #classes-list {
+            flex-wrap: wrap;
+        }
+        #classes-list figure {
+            width: 50%;
+            height: 300px;
+        }
+}
+
+/* Small phones to small tablet: from 481 to 767 px */
+@media only screen and (max-width: 767px) {
+    /* HEADER */
+    #header-img { margin-left: 12px; }
+
+    /* SECTION */
+    section { margin-bottom: 40px;}
+
+    /* FEATURE */
+    #feature {  height: 800px; }
+    
+    #perks-list {
+        flex-direction: column;
+    }
+    
+    .perks {
+        width: 650px; 
+        margin: auto;
+        height: 200px;
+    }
+
+    /* Classes */
+    #classes-list {
+        flex-direction: column;
+    }
+
+    #classes-list figure {
+        width: 100%;
+        height: 300px;
+    }
+
+    #classes-list img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* Membership */
+    #membership { flex-direction: column; }
+
+    .package {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 12px;
+    }
+}
+
+/* Small phones: from 0 to 480 px */
+@media only screen and (max-width: 480px) {
+    /* HEADER */
+    #header-img { margin-left: 10px; }
+
+    /* SECTION */
+    section { margin-bottom: 40px;}
+
+    /* FEATURE */
+    #feature {  height: 950px; }
+    
+    #perks-list {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    
+    .perks {
+        width: 450px; 
+        height: 250px;
+    }
+
+    /* Classes */
+    #classes-list {
+        flex-direction: column;
+    }
+    #classes-list figure {
+        width: 100%;
+        height: 250px;
+    }
+
+    #classes-list img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Membership */
+    #membership { flex-direction: column; }
+
+    .package {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 12px;
+    }
+}
+
+
+

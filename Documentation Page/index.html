@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation Page</title>
+    <link rel="stylesheet" class="nav-link" href="./style.css">
+    <link rel="stylesheet" href="./query.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header id="nav-title">
+            <h1>HTML Documentation</h1>
+        </header>
+        <ul>
+            <li><a class="nav-link" href="#Introduction">Introduction</a></li> 
+            <li><a class="nav-link" href="#What_is_HTML?">What is HTML?</a></li> 
+            <li><a class="nav-link" href="#Anatomy_of_an_HTML_element">Anatomy of an HTML element</a></li> 
+            <li><a class="nav-link" href="#Nesting_elements">Nesting elements</a></li>
+            <li><a class="nav-link" href="#Block_versus_inline_elements">Block versus inline elements</a></li>
+            <li><a class="nav-link" href="#Reference">Reference</a></li>
+        </ul>  
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header class="section-title">Introduction</header>
+            <p class="section-text">In this article we cover the absolute basics of HTML. To get you started, this article defines elements, attributes, and all the other important terms you may have heard. It also explains where these fit into HTML. You will learn how HTML elements are structured, how a typical HTML page is structured, and other important basic language features. Along the way, there will be an opportunity to play with HTML too!</p>
+
+            <table id="intro-table">
+                <tr>
+                    <td>Objective</td>
+                    <td>To gain basic familiarity with HTML, and practice writing a few HTML elements.</td>
+                </tr>
+                <tr>
+                    <td>Prerequisite</td>
+                    <td>Basic computer literacy, basic software installed, and basic knowledge of working with files.</td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="main-section" id="What_is_HTML?">
+            <header class="section-title">What is HTML?</header>
+            <p class="section-text">HTML (Hypertext Markup Language) is not a programming language. It is a markup language that tells web browsers how to structure the web pages you visit. It can be as complicated or as simple as the web developer wants it to be. HTML consists of a series of elements, which you use to enclose, wrap, or mark up different parts of content to make it appear or act in a certain way. The enclosing tags can make content into a hyperlink to connect to another page, italicize words, and so on.</p>
+            
+            <div class="example-div">
+                <p> For example, consider the following line of text:</p>
+                <code>
+                    <p class="example">My cat is very grumpy.</p>
+                </code>
+                <p>If we wanted the text to stand by itself, we could specify that it is a paragraph by enclosing it in a paragraph  (&lt;p&gt;) element:</p>
+                <code>
+                    <p class="example">&lt;<span class="elements">p</span>&gt;My cat is very grumpy.&lt;/<span class="elements">p</span>&gt;</p>
+                </code>
+            </div>
+        </section>
+
+        <section class="main-section" id="Anatomy_of_an_HTML_element">
+            <header class="section-title">Anatomy of an HTML element</header>
+            <p class="section-text">Let's further explore our paragraph element from the previous section:</p>
+            <img src="./images/anatomy.PNG" alt="anatomy_of_html" id="anatomy-img">
+            <p class="section-text">The anatomy of our element is:</p>
+            <ul class="section-list">
+                <li><b>The opening tag:</b> This consists of the name of the element (in this example, p for paragraph), wrapped in opening and closing angle brackets. This opening tag marks where the element begins or starts to take effect. In this example, it precedes the start of the paragraph text.</li>
+                <li><b>The content:</b>This is the content of the element. In this example, it is the paragraph text.</li>
+                <li><b>The closing tag:</b>This is the same as the opening tag, except that it includes a forward slash before the element name. This marks where the element ends. Failing to include a closing tag is a common beginner error that can produce peculiar results.</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Nesting_elements">
+            <header class="section-title">Nesting elements</header>
+            <p class="section-text">Elements can be placed within other elements. This is called nesting. If we wanted to state that our cat is very grumpy, we could wrap the word <b>very</b> in a &lt;strong&gt; element, which means that the word is to have strong(er) text formatting:</p>
+            <div class="example-div">
+                <code>
+                    <p class="example">                 
+                        &lt;<span class="elements">p</span>&gt;My cat is &lt;<span class="elements">strong</span>&gt;<span class="elements">very</span>&lt;/strong&gt; grumpy.&lt;/<span class="elements">p</span>&gt; 
+                    </p>
+                </code>
+                <p class="section-text">There is a right and wrong way to do nesting. In the example above, we opened the p element first, then opened the strong element. For proper nesting, we should close the strong element first, before closing the p.</p>
+                <p>The following is an example of the wrong way to do nesting:</p>
+                <code>
+                    <p class="example wrong">
+                        &lt;<span class="elements">p</span>&gt;My cat is &lt;<span class="elements">strong</span>&gt;very grumpy.&lt;/<span class="elements">p</span>&gt;&lt;/<span class="elements">strong</span>&gt;
+                    </p>
+                </code>
+                <p class="section-text">
+                    The <b>tags have to open and close in a way that they are inside or outside one another</b>. With the kind of overlap in the example above, the browser has to guess at your intent. This kind of guessing can result in unexpected results.
+                </p>
+            </div>
+        </section>
+
+        <section class="main-section" id="Block_versus_inline_elements">
+            <header class="section-title">Block versus inline elements</header>
+            <p class="section-text">There are two important categories of elements to know in HTML: block-level elements and inline elements.</p>
+            <ul class="section-list">
+                <li><b>Block-level elements</b> form a visible block on a page. A block-level element appears on a new line following the content that precedes it. Any content that follows a block-level element also appears on a new line. Block-level elements are usually structural elements on the page. For example, a block-level element might represent <u>headings</u>, <u>paragraphs</u>, <u>lists</u>, <u>navigation menus</u>, or <u>footers</u>. A block-level element wouldn't be nested inside an inline element, but it might be nested inside another block-level element.</li>
+                <li><b>Inline elements</b> are contained within block-level elements, and surround only small parts of the document’s content (not entire paragraphs or groupings of content). An inline element will not cause a new line to appear in the document. It is typically used with text, for example an &lt;a&gt; element creates a hyperlink, and elements such as &lt;em&gt; or &lt;strong&gt; create emphasis.</li>
+            </ul>
+            <p class="section-text">Consider the following example:</p>
+            <div class="example-div">
+                <code>
+                    <p class="example">&lt;<span class="elements">em</span>&gt;first&lt;/<span class="elements">em</span>&gt;&lt;<span class="elements">em</span>&gt;second&lt;/<span class="elements">em</span>&gt;&lt;<span class="elements">em</span>&gt;third&lt;/<span class="elements">em</span>&gt;
+                    <br><br><br>
+                    &lt;<span class="elements">p</span>&gt;fourth&lt;/<span class="elements">p</span>&gt;&lt;<span class="elements">p</span>&gt;fifth&lt;/<span class="elements">p</span>&gt;&lt;<span class="elements">p</span>&gt;sixth&lt;/<span class="elements">p</span>&gt;</p>
+                </code>
+            </div>
+            <p class="section-text">&lt;<span class="elements">em</span>&gt; is an inline element. As you see below, the first three elements sit on the same line, with no space in between. On the other hand, &lt;<span class="elements">p</span>&gt; is a block-level element. Each p element appears on a new line, with space above and below. (The spacing is due to default CSS styling that the browser applies to paragraphs.)</p>
+            <div id="block-inline-ex">
+                <p><i>firstsecondthird</i></p>
+                <p>fourth</p>
+                <p>fifth</p>
+                <p>sixth</p>
+            </div>
+        </section>
+
+        <section class="main-section" id="Reference">
+            <header class="section-title">Reference</header>
+            <p class="section-text">All the documentation in this is page is taken from <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started" target="_blank" id="reference-link">MDN</a>.</p>
+        </section>
+    </main>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
