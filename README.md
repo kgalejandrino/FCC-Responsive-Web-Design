@@ -106,7 +106,7 @@ Link to Codepen: https://codepen.io/kgalejandrino/pen/bGemeOY
 
  - User Story #15: My product landing page should utilize CSS flexbox at least once.
 * #### Build a Technical Documentation Page
-Link to Codepen: https://codepen.io/kgalejandrino/pen/yLJmNgM
+Link to Codepen: https://codepen.io/kgalejandrino/pen/yLJmYGZ
  - User Story #1: I can see a main element with a corresponding id="main-doc", which contains the page's main content (technical documentation).
 
  - User Story #2: Within the #main-doc element, I can see several section elements, each with a class of main-section. There should be a minimum of 5.
