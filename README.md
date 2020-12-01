@@ -18,7 +18,8 @@ The goal of the project is to design them responsively based on the User Stories
 ### Setup
 1. Download and unzip repo
 2. Run index.html
-P.S Codepen link on each project is also available for Live Demo!
+
+Note: Codepen link on each project is also available for Live Demo!
 
 ### Five Responsive Websites
 * #### Build a Tribute Page 
