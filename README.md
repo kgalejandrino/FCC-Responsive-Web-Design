@@ -16,7 +16,9 @@ Purpose of the project is to showcase all the skills we learned in the Web Desig
 The goal of the project is to design them responsively based on the User Stories provided. A finished project has to be run with the given test cases and should pass. 
 
 ### Setup
-All of the projects are static websites, so if you are interested. Simply, download the files and run index.html in your browser. I will also put the link of each project created through codepen.
+1. Download and unzip repo
+2. Run index.html
+P.S Codepen link on each project is also available for Live Demo!
 
 ### Five Responsive Websites
 * #### Build a Tribute Page 
